@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    printf("3.14");
+    int x;
+    scanf("%.2%f",&x);
+    printf("You entered: ",x)
     return 0;
 }
