@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int x,y,z;
+    int x,y,z,r;
     scanf("%f",&x);
     scanf("%f",&y);
     scanf("%f",&z);
