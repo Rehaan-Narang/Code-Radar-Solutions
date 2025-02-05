@@ -7,7 +7,7 @@ int main()
     {
         printf("Set");
     }
-    else{
+    else(x%2!=0){
         printf("Not Set");
     }
 }
