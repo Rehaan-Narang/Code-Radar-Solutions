@@ -3,9 +3,9 @@
 void checkMSB(int num) {
     // 0x80000000 = 10000000 00000000 00000000 00000000 in binary (MSB set)
     if (num & 0x80000000) {
-        printf("MSB is set (1)\n");
+        printf("Set");
     } else {
-        printf("MSB is not set (0)\n");
+        printf("Not set");
     }
 }
 
