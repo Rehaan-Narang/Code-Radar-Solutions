@@ -1,11 +1,13 @@
-#include <stdio.h>
-int main(){
+#include<stdio.h>
+int main()
+{
     int x,y,z;
-    scanf("%d &d %d",&x,&y,&z);
-    if(((x+y)>z) && ((y+z)>x) && ((x+z)>y)){
-        printf("Valid");
+    scanf("%d %d %d",&x,&y,&z);
+    if( (x+y)>z  &&  (y+z)>x  && (z+x)> y) {
+        printf("valid");
     }
     else{
         printf("Invalid");
     }
+    return 0;
 }
