@@ -11,7 +11,7 @@ void checkMSB(int num) {
 int main() {
     int num;
     
-    printf("%d",num);
+    printf("");
     scanf("%d", &num);
     
     checkMSB(num);
