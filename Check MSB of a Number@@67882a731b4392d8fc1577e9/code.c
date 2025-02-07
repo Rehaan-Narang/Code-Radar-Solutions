@@ -12,7 +12,7 @@ void checkMSB(int num) {
 int main() {
     int num;
     
-    printf("Enter a 32-bit integer: ");
+    printf("%d",num);
     scanf("%d", &num);
     
     checkMSB(num);
