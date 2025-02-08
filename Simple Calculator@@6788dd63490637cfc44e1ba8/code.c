@@ -2,8 +2,8 @@
 int main()
 {
     int x,y;
-    char z[];
-    scanf("%d %d %c",&x,&y,&z);
+    char z;
+    scanf("%d %d %s",&x,&y,&z);
     if(z=='+'){
         printf("%d",x+y);
     }
