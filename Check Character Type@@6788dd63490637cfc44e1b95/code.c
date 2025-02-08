@@ -2,7 +2,7 @@
 int main()
 {
     char x[100];
-    scanf("%d",&x);
+    scanf("%c",&x);
     if(char == 'a'||char =='e'|| char =='i'|| char =='o'|| char =='u'){
         printf("Vowels");
     }
