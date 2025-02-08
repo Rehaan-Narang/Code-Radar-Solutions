@@ -12,7 +12,7 @@ int main()
     else if(z==*){
         printf("%d",x*y);
     }
-    else(z==/){
+    else if(z==/){
         printf("%d",x/y);
     }
 }
