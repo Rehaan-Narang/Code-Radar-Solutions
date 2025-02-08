@@ -4,7 +4,6 @@ int main() {
     int x, y;
     char z;  // Change z to char for operator input
 
-    printf("Enter two numbers and an operator (+, -, *, /): ");
     scanf("%d %d %c", &x, &y, &z);  // Use %c for character input
 
     if (z == '+') {
