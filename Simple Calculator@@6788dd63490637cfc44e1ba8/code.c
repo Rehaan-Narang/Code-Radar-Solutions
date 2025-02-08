@@ -2,7 +2,7 @@
 int main()
 {
     int x,y;
-    char z[100];
+    char z;
     scanf("%d %d %d",&x,&y,&z);
     if(z=='+'){
         printf("%d",x+y);
