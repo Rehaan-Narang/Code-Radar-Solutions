@@ -1,20 +1,31 @@
 #include <stdio.h>
-int main()
-{
-    int x,y;
-    char z;
-    scanf("%d %d ",&x,&y);
-    scanf("%c",&z);
-    if(z=='+'){
-        printf("%d",x+y);
+
+int main() {
+    int x, y;
+    char z;  // Change z to char for operator input
+
+    printf("Enter two numbers and an operator (+, -, *, /): ");
+    scanf("%d %d %c", &x, &y, &z);  // Use %c for character input
+
+    if (z == '+') {
+        printf("%d\n", x + y);
     }
-    else if(z=='-'){
-        printf("%d",x-y);
+    else if (z == '-') {
+        printf("%d\n", x - y);
     }
-    else if(z=='*'){
-        printf("%d",x*y);
+    else if (z == '*') {
+        printf("%d\n", x * y);
+    }
+    else if (z == '/') {
+        if (y != 0) {
+            printf("%d\n", x / y);
+        } else {
+            printf("Error! Division by zero.\n");
+        }
     }
     else {
-        printf("%d",x/y);
+        printf("Invalid operator!\n");
     }
+
+    return 0;
 }
