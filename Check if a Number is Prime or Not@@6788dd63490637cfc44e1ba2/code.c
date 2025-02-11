@@ -11,7 +11,7 @@ else if(x==2){
 }
 else{
     for(int i==2; i<x;i++){
-        if(x%i==0){
+        if((x%i)==0){
             printf("Prime");
             break;
         }
