@@ -5,13 +5,13 @@ int main()
     char z;
     scanf("%d %d",&x,&y);
     scanf("%c",&z);
-    if(z=="+"){
+    if(z=='+'){
         printf("%d",x+y);
     }
-    else if(z=="-"){
+    else if(z=='-'){
         printf("%d",x-y);
     }
-    else if(z=="*"){
+    else if(z=='*'){
         printf("%d",x*y);
     }
     else if{
