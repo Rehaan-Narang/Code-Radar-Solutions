@@ -14,7 +14,7 @@ int main()
     else if(z=='*'){
         printf("%d",x*y);
     }
-    else if(z=='/'){
+    else if(z=='/' && z!=0){
         printf("%d",x/y);
     }
     else{
