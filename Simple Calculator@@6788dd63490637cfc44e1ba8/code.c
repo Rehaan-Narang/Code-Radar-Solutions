@@ -20,4 +20,4 @@ int main()
     else{
         printf("Error");
     }
-}Loading Code...
+}
