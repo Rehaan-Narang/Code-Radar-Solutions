@@ -4,6 +4,7 @@ int main()
     int x,y;
     char z;
     scanf("%d %d",&x,&y);
+    getch();
     scanf("%c",&z);
     if(z=='+'){
         printf("%d",x+y);
@@ -14,7 +15,7 @@ int main()
     else if(z=='*'){
         printf("%d",x*y);
     }
-    else if(z=='/' && z!=0){
+    else if(z=='/'){
         printf("%d",x/y);
     }
     else{
