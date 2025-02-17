@@ -3,29 +3,29 @@ int main()
 {
     int x;
     scanf("%d",&x);
-    if(x==1){
+    switch(x){
+        case 1 :
         printf("Monday");
-    }
-    else if(x==2){
+        break;
+        case 2:
         printf("Tuesday");
-    }
-    else if(x==3){
+        break;
+        case 3 :
         printf("Wednesday");
-    }
-    else if(x==4){
+        break;
+        case 4 :
         printf("Thrusday");
-    }
-    else if(x==5){
+        break;
+        case 5 :
         printf("Friday");
-    }
-    else if(x==6){
+        break;
+        case 6 :
         printf("Saturday");
-    }
-    else if(x==7){
+        break;
+        case 7:
         printf("Sunday");
-    }
-    else{
-        printf("Invalid");
-    }
-    
+        break;
+    default :
+    printf("Invalid");    
+    }  
 }
