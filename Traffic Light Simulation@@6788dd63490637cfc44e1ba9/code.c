@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    char c;
-    scanf("%c",&c);
-    if(c=='R'){
+    char d;
+    scanf("%c",&d);
+    if(d=='R'){
         printf("Stop");
     }
-    else if(c=='G'){
+    else if(d=='G'){
         printf("Go");
     }
     else {
