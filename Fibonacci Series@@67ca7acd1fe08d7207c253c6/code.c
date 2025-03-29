@@ -10,4 +10,3 @@ int fibonacciSeries(int n){
     }
 
 }
-    printf("%d",c);
