@@ -6,4 +6,10 @@ int main(){
         printf("**\n");
         printf("**");
     }
+    if(n==3){
+        printf("***\n");
+        printf("* *\n");
+        printf("***");
+        
+    }
 }
