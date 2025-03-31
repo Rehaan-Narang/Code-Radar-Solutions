@@ -6,16 +6,16 @@ int main(){
         printf("*");
     }
     if(n==2){
-        printf(" *");
-        printf("**\n");
+        printf(" *\n");
+        printf("**");
     }
     if(n==3){
-        printf("  *");
+        printf("  *\n");
         printf(" **\n");
         printf("***\n");
     }
     if(n==4){
-        printf("   *");
+        printf("   *\n");
         printf("  **\n");
         printf(" ***\n");
         printf("****\n");
