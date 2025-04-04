@@ -35,7 +35,7 @@ int main(){
         printf("11 12 13 14 15\n");
         printf("16 17 18 19 20 21");
     }
-    if(n==6){
+    if(n==7){
     printf("1\n");
     printf("2 3\n");
     printf("4 5 6\n");
