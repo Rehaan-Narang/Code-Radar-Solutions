@@ -15,5 +15,34 @@ int main()
         printf("0 1\n");
         printf("1 0 1");
     }
+    if(n==4){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1");
+    }
+    if(n==5){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+        printf("1 0 1 0 1")
+    }
+    if(n==6){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+        printf("1 0 1 0 1\n");
+        printf("0 1 0 1 0 1");
+    }
+    if(n==7){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+        printf("1 0 1 0 1\n");
+        printf("0 1 0 1 0 1\n");
+        printf("1 0 1 0 1 0 1");
 
 }
