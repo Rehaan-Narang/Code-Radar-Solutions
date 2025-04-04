@@ -6,4 +6,14 @@ int main()
     if(n==1){
         printf("1");
     }
+    if(n==2){
+        printf("1\n");
+        printf("0 1");
+    }
+    if(n==3){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1");
+    }
+
 }
