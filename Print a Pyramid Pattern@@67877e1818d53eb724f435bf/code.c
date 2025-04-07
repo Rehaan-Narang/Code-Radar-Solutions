@@ -32,7 +32,7 @@ int main(){
         printf("    ***    \n");
         printf("   *****   \n");
         printf("  *******  \n");
-        printf(" ********* ");
+        printf(" ********* \n");
         printf("***********");
     }
     if(n==7){
@@ -40,8 +40,8 @@ int main(){
         printf("     ***     \n");
         printf("    *****    \n");
         printf("   *******   \n");
-        printf("  *********  ");
-        printf(" *********** ");
+        printf("  *********  \n");
+        printf(" *********** \n");
         printf("*************");
     }
 }
