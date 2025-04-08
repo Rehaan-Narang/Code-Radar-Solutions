@@ -7,7 +7,6 @@ int main() {
     int i, count = 0;
 
     // Prompt the user to enter a string
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin); // Read the string input from the user
 
     // Iterate through the string and count vowels using if-else
