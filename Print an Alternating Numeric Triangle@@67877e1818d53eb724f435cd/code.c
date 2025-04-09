@@ -1,49 +1,12 @@
-#include<stdio.h>
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    if(n==1){
-        printf("1");
+#include <stdio.h>
+int main() {
+    int n, i, j;
+    scanf("%d", &n);
+    for(i = n; i >= 1; i--) {
+        for(j = 0; j < i; j++) {
+            printf("%c ", 'A' + j);
+        }
+        printf("\n");
     }
-    if(n==2){
-        printf("1\n");
-        printf("0 1");
-    }
-    if(n==3){
-        printf("1\n");
-        printf("0 1\n");
-        printf("1 0 1");
-    }
-    if(n==4){
-        printf("1\n");
-        printf("0 1\n");
-        printf("1 0 1\n");
-        printf("0 1 0 1");
-    }
-    if(n==5){
-        printf("1\n");
-        printf("0 1\n");
-        printf("1 0 1\n");
-        printf("0 1 0 1\n");
-        printf("1 0 1 0 1");
-    }
-    if(n==6){
-        printf("1\n");
-        printf("0 1\n");
-        printf("1 0 1\n");
-        printf("0 1 0 1\n");
-        printf("1 0 1 0 1\n");
-        printf("0 1 0 1 0 1");
-    }
-    if(n==7){
-        printf("1\n");
-        printf("0 1\n");
-        printf("1 0 1\n");
-        printf("0 1 0 1\n");
-        printf("1 0 1 0 1\n");
-        printf("0 1 0 1 0 1\n");
-        printf("1 0 1 0 1 0 1");
-    }
-
+    return 0;
 }
