@@ -1,15 +1,22 @@
 #include <stdio.h>
+
 int main() {
-    unsigned int num;
-    printf("");
-    scanf("%u", &num);
-    int count = 0;
-    for (int i = 31; i >= 0; i--) {
-        if ((num >> i) & 1) {
-            break;
+    int N;
+    scanf("%d", &N);  // Input the number of rows
+
+    for (int i = 1; i <= N; i++) {
+        // Print spaces before numbers
+        for (int s = 1; s <= N - i; s++) {
+            printf("  ");
         }
-        count++;
+
+        // Print numbers from 1 to i
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);
+        }
+
+        printf("\n");
     }
-    printf("%d\n", count);
+
     return 0;
 }
