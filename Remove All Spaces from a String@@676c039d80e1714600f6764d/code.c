@@ -1,4 +1,4 @@
-// Your code here...#include <stdio.h>
+
 #include <string.h>
 void removeSpaces(char *str) {
     int i, j = 0;
