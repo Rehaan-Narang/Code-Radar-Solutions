@@ -7,7 +7,7 @@ int main() {
     for (int i = 1; i <= N; i++) {
         // Print spaces before numbers
         for (int s = 1; s <= N - i; s++) {
-            printf("  ");
+            printf(" ");
         }
 
         // Print numbers from 1 to i
