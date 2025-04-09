@@ -11,7 +11,7 @@ void removeSpaces(char *str) {
 }
 int main() {
     char str[100];
-    printf("");
+    // printf("");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = 0;
     removeSpaces(str);
